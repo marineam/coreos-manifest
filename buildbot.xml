@@ -26,8 +26,9 @@ Your sources have been sync'd successfully.
   <project path="src/overlays"
            name="coreos/board-overlays"
            remote="coreos" groups="minilayout" />
-  <project path="src/scripts" name="coreos/scripts"
-            remote="coreos" groups="minilayout" />
+  <project path="src/scripts" name="marineam/scripts"
+           remote="coreos" groups="minilayout"
+           revision="refs/heads/buildbot" />
 
   <project path="src/third_party/portage-stable"
            name="coreos/portage-stable" remote="coreos"
