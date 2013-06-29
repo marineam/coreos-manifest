@@ -31,10 +31,10 @@ Your sources have been sync'd successfully.
 
   <project path="src/third_party/portage-stable"
            name="marineam/portage-stable" remote="coreos"
-           groups="minilayout" revision="refs/heads/gsutil" />
+           groups="minilayout" revision="refs/heads/dev86" />
   <project path="src/third_party/coreos-overlay"
-           name="marineam/coreos-overlay" remote="coreos"
-           groups="minilayout" revision="refs/heads/gsutil" />
+           name="coreos/coreos-overlay" remote="coreos"
+           groups="minilayout" />
 
   <project path="src/third_party/dbus-c++"
            name="coreos/dbus-cplusplus" remote="coreos"
